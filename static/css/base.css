@@ -5,6 +5,7 @@ body {
     margin:0;
     padding:0;
     font-family:helvetica, sans-serif; 
+    
 }
 
 h1, h2, h3, h4, h5 , h6 { 
@@ -152,7 +153,7 @@ ul.errorlist {
 
 #sidebar {
     width:220px;
-    padding:30px 20px 0 0;
+    /* padding:30px 20px 0 0; */
     float:left;
 }
 
@@ -321,4 +322,9 @@ ul.errorlist {
     /* -webkit-box-shadow: -2px 3px 69px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px 3px 69px -6px rgba(0,0,0,0.75);
     box-shadow: -2px 3px 69px -6px rgba(0,0,0,0.75);     */
+}
+
+#logo {
+    position: relative;
+    left: 44%;
 }
