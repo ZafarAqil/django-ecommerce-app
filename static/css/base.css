@@ -1,16 +1,20 @@
 /* @import url(http://fonts.googleapis.com/css?family=Ubuntu); */
-@import url(https://fonts.googleapis.com/css?family=Lobster);
+/* @import url(https://fonts.googleapis.com/css?family=Lobster); */
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 body { 
     margin:0;
     padding:0;
-    font-family:helvetica, sans-serif; 
-    
+    /* font-family:helvetica, sans-serif;  */
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 , h6 { 
     /* font-family: 'Ubuntu', sans-serif;  */
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Pacifico', cursive;
     font-weight:normal;
 }
 
@@ -328,3 +332,13 @@ ul.errorlist {
     position: relative;
     left: 44%;
 }
+
+p {
+    background-color: rgba(145, 140, 140,0.25);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* #add_to_cart {
+    margin-left: 25%;
+    margin-top: 0px;
+} */
