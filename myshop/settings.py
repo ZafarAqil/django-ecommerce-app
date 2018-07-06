@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'social_django',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
-    
+    'paypal.standard.ipn',
 ]
 
 MIDDLEWARE = [
@@ -112,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -147,3 +147,7 @@ AUTHENTICATION_BACKENDS=[
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY='837411914615-bcsg8sr2tpinoaauuhsa49etjdk3qm1s.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET='dn3EecIilfl6_mkGYphak4zt'
 CART_SESSION_ID = 'cart'
+
+# django-paypal settings
+PAYPAL_RECEIVER_EMAIL = ''
+PAYPAL_TEST = True
