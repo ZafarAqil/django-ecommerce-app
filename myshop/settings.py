@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
     'paypal.standard.ipn',
+    'payment',
 ]
 
 MIDDLEWARE = [
@@ -149,5 +150,9 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET='dn3EecIilfl6_mkGYphak4zt'
 CART_SESSION_ID = 'cart'
 
 # django-paypal settings
-PAYPAL_RECEIVER_EMAIL = ''
+PAYPAL_RECEIVER_EMAIL = 'zafaraqil14@gmail.com'
 PAYPAL_TEST = True
+
+# python manage.py runserver
+# celery -A myshop worker --pool=solo -l info
+# celery -A myshop flower
