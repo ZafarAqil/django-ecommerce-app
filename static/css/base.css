@@ -15,7 +15,8 @@ body {
 h1, h2, h3, h4, h5 , h6 { 
     /* font-family: 'Ubuntu', sans-serif;  */
     /* font-family: 'Lobster', cursive; */
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Roboto', sans-serif;
     font-weight:normal;
 }
 
@@ -325,20 +326,18 @@ ul.errorlist {
 .recommendations.cart img {
     width:120px;
 }
-.item {
-    /* -webkit-box-shadow: -2px 3px 69px -6px rgba(0,0,0,0.75);
-    -moz-box-shadow: -2px 3px 69px -6px rgba(0,0,0,0.75);
-    box-shadow: -2px 3px 69px -6px rgba(0,0,0,0.75);     */
-}
+
 
 #logo {
     position: relative;
     left: 44%;
+    font-family: 'Pacifico', cursive;
 }
 
 p {
-    background-color: rgba(145, 140, 140,0.25);
-    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(145, 140, 140,0.20);
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 /* #add_to_cart {
