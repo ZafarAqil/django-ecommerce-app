@@ -156,3 +156,8 @@ PAYPAL_TEST = True
 # python manage.py runserver
 # celery -A myshop worker --pool=solo -l info
 # celery -A myshop flower
+# ngrok http 8000
+
+# weasyprint
+# ngrok
+# cairo/MYSYS2
