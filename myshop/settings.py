@@ -31,7 +31,6 @@ ALLOWED_HOSTS = ['shopy.com', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    'account.apps.AccountConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +41,7 @@ INSTALLED_APPS = [
     'social_django',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'account.apps.AccountConfig',
     'paypal.standard.ipn',
     'payment',
 ]

@@ -22,9 +22,9 @@ from django.contrib.auth import views as auth_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('cart/', include('cart.urls', namespace='cart')),
-    path('account/', include('account.urls')),
     path('orders/', include('orders.urls', namespace='orders')),
     path('payment/', include('payment.urls', namespace='payment')),
+     path('account/', include('account.urls')),
     path('paypal/',include('paypal.standard.ipn.urls')),
     path('', include('shop.urls', namespace='shop')),
     path('social-auth/',include('social_django.urls', namespace='social')),
